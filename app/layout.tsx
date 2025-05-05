@@ -3,9 +3,8 @@ import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata = {
-  title: "IWSC 2025 - International Workshop on Sustainable Computing",
-  description: "International Workshop on Sustainable Computing, June 15-17, 2025, Stockholm, Sweden",
-    generator: 'v0.dev'
+  title: "STABILITY 2025 - First Stability Workshop",
+  description: "First Stability Workshop, 7th of October 2025, CMU, Pittsburgh, PA, USA",
 }
 
 export default function RootLayout({
