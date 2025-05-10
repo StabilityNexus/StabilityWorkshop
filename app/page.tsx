@@ -243,7 +243,7 @@ export default function WorkshopPage() {
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Reginaldo Beraba</p>
-                    <p className="text-sm text-muted-foreground">Sui</p>
+                    <p className="text-sm text-muted-foreground">Mysten Labs, Sui</p>
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Ignacio Calderon de la Barça</p>
