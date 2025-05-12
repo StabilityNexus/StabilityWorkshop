@@ -225,6 +225,7 @@ export default function WorkshopPage() {
                   <Card>
                     <CardContent className="pt-6">
                       <p className="font-semibold">Dr. Bruno Woltzemlogel Paleo</p>
+                      <p className="text-sm text-muted-foreground">The Stable Order</p>
                     </CardContent>
                   </Card>
                 </div>
