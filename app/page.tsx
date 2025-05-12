@@ -553,6 +553,10 @@ export default function WorkshopPage() {
             <p className="mb-8 max-w-2xl mx-auto">
               If you may need a visa to attend the workshop, please contact the organizers.
             </p>
+            <p className="mb-8 max-w-2xl mx-auto">
+              If you would like to participate in the workshop but, for any reason, 
+              you are unable or unwilling to come to CMU, USA, on the 7th of October, please contact the organizers.
+            </p>
           </div>
         </section>
 
