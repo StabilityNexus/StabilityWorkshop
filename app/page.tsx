@@ -240,7 +240,7 @@ export default function WorkshopPage() {
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Ohad Asor</p>
-                    <p className="text-sm text-muted-foreground">Tau-Chain</p>
+                    <p className="text-sm text-muted-foreground">Tau</p>
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Reginaldo Beraba</p>
