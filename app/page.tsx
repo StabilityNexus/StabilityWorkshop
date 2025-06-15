@@ -335,6 +335,10 @@ export default function WorkshopPage() {
                     <p className="text-sm text-muted-foreground">Hathor Network</p>
                   </div>
                   <div className="p-4 border rounded-md">
+                    <p className="font-medium">Prof. Bernhard Scholz</p>
+                    <p className="text-sm text-muted-foreground">Fantom Foundation and The University of Sydney (Australia)</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
                     <p className="font-medium">Prof. Alfred Taudes</p>
                     <p className="text-sm text-muted-foreground">
                       Vienna University of Economics and Business (Austria)
