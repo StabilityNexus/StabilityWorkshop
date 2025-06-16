@@ -472,6 +472,31 @@ export default function WorkshopPage() {
               </div>
             </div>
           </div>
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication of Papers</h2>
+            <div className="max-w-3xl mx-auto">
+              <Card className="mb-8">
+                <CardHeader>
+                  <CardTitle className="text-[#3E921E]">Publication</CardTitle>
+                  <CardDescription></CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-4">
+                    <li className="flex gap-3">
+                      <FileText className="h-5 w-5 text-[#FFBF00] flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="font-medium">Special Issue of the Journal of Financial Technology</p>
+                        <p className="text-muted-foreground">
+                          Authors of selected papers will be invited to 
+                          submit journal versions of their papers to a special issue of the
+                          <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline flex items-center">Journal of Financial Technology</a>.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card> 
+          </div>
         </section>
 
         {/* Program */}
