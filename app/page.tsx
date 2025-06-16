@@ -336,7 +336,7 @@ export default function WorkshopPage() {
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Prof. Bernhard Scholz</p>
-                    <p className="text-sm text-muted-foreground">Fantom Foundation and The University of Sydney (Australia)</p>
+                    <p className="text-sm text-muted-foreground">Sonic Labs and The University of Sydney (Australia)</p>
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Prof. Alfred Taudes</p>
