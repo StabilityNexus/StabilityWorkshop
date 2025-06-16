@@ -477,6 +477,20 @@ export default function WorkshopPage() {
           </div>
         </section>
 
+        {/* Publication */}
+        <section id="submission" className="py-12 md:py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication</h2>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-center mb-8 text-muted-foreground">
+                Authors of selected papers will be invited to 
+                submit journal versions of their papers to a special issue of the
+                <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline flex items-center">Journal of Financial Technology</a>.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Program */}
         <section id="program" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
