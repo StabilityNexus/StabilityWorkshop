@@ -69,6 +69,9 @@ export default function WorkshopPage() {
               <a href="#submission" className="hover:text-[#3E921E] transition-colors">
                 Submission
               </a>
+              <a href="#publication" className="hover:text-[#3E921E] transition-colors">
+                Publication
+              </a>
               <a href="#program" className="hover:text-[#3E921E] transition-colors">
                 Program
               </a>
@@ -472,6 +475,10 @@ export default function WorkshopPage() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Publication */}
+        <section id="publication" className="py-12 md:py-16">  
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication of Papers</h2>
             <div className="max-w-3xl mx-auto">
@@ -496,7 +503,7 @@ export default function WorkshopPage() {
                   </ul>
                 </CardContent>
               </Card> 
-          </div>
+           </div>
         </section>
 
         {/* Program */}
