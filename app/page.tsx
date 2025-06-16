@@ -478,7 +478,7 @@ export default function WorkshopPage() {
         </section>
 
         {/* Publication */}
-        <section id="submission" className="py-12 md:py-16 bg-gray-50">
+        <section id="publication" className="py-12 md:py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication</h2>
             <div className="max-w-4xl mx-auto">
