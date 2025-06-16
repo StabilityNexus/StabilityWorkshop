@@ -484,7 +484,7 @@ export default function WorkshopPage() {
             <div className="max-w-4xl mx-auto">
               <p className="text-center mb-8 text-muted-foreground">
                 Authors of selected papers will be invited to 
-                submit journal versions of their papers to a special issue of the
+                submit journal versions of their papers to a <br />special issue of the{" "}
                 <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline">Journal of Financial Technology</a>.
               </p>
             </div>
