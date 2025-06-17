@@ -312,6 +312,10 @@ export default function WorkshopPage() {
                     <p className="text-sm text-muted-foreground">BGIN and HSBC (England, UK)</p>
                   </div>
                   <div className="p-4 border rounded-md">
+                    <p className="font-medium">Dr. Kelsie Nabben</p>
+                    <p className="text-sm text-muted-foreground">RMIT University (Australia)</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
                     <p className="font-medium">Prof. Ali Nejadmalayeri</p>
                     <p className="text-sm text-muted-foreground">University of Wyoming (USA)</p>
                   </div>
