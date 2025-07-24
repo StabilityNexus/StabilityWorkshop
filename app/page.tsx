@@ -576,6 +576,9 @@ export default function WorkshopPage() {
               .
             </p>
             <p className="mb-8 max-w-2xl mx-auto">
+              We also recommend participating in <a href="https://aftconf.github.io/aft25/attend.html" className="text-[#3E921E] hover:underline">BGIN Block #13</a> from 15th to 17th of October in Washington, D.C.
+            </p>
+            <p className="mb-8 max-w-2xl mx-auto">
               If you may need a visa to attend the workshop, please contact the organizers.
             </p>
             <p className="mb-8 max-w-2xl mx-auto">
