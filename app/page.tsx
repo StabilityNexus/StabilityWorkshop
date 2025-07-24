@@ -172,7 +172,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Paper Submission Deadline</p>
-                      <p className="text-muted-foreground">23rd of July 2025</p>
+                      <p className="text-muted-foreground">1st of August 2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -183,7 +183,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Notification of Acceptance</p>
-                      <p className="text-muted-foreground">7th of August 2025</p>
+                      <p className="text-muted-foreground">11th of August 2025</p>
                     </div>
                   </div>
                 </CardContent>
