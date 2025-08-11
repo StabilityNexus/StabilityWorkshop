@@ -41,10 +41,9 @@ export default function WorkshopPage() {
       <header className="bg-gradient-to-r from-[#3E921E] to-[#FFBF00] text-white py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">1st Stability Workshop</h1>
-          <p className="text-xl md:text-2xl mb-6">
-            In conjunction with the 7th International Conference on Advances in Financial Technologies (AFT)
+          <p className="text-xl md:text-2xl mb-6">   
           </p>
-          <p className="text-lg md:text-xl">7th of October 2025 • CMU, Pittsburgh, PA, USA</p>
+          <p className="text-lg md:text-xl">December 2025 • Location To-Be-Defined</p>
         </div>
       </header>
 
@@ -153,10 +152,6 @@ export default function WorkshopPage() {
               <p className="mb-4">
                 Submitted papers must not be simultaneously submitted to another conference or journal.
               </p>
-              <p>
-                All accepted papers will be published in the workshop proceedings. Depending on the number and quality
-                of submissions, we may seek publication in a special issue of a journal.
-              </p>
             </div>
           </div>
         </section>
@@ -172,7 +167,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Paper Submission Deadline</p>
-                      <p className="text-muted-foreground">1st of August 2025</p>
+                      <p className="text-muted-foreground">19th of October 2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -183,7 +178,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Notification of Acceptance</p>
-                      <p className="text-muted-foreground">11th of August 2025</p>
+                      <p className="text-muted-foreground">2nd of November 2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -194,7 +189,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Camera-Ready Submission</p>
-                      <p className="text-muted-foreground">7th of September 2025</p>
+                      <p className="text-muted-foreground">9th of November 2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -205,7 +200,7 @@ export default function WorkshopPage() {
                     <Calendar className="h-8 w-8 text-[#3E921E]" />
                     <div>
                       <p className="font-semibold">Workshop Date</p>
-                      <p className="text-muted-foreground">7th of October 2025</p>
+                      <p className="text-muted-foreground">Nth of December 2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -487,8 +482,10 @@ export default function WorkshopPage() {
             <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-center mb-8 text-muted-foreground">
+                All accepted papers will be published in the workshop proceedings. <br />
                 Authors of selected papers will be invited to 
-                submit journal versions of their papers to a <br />special issue of the{" "}
+                submit journal versions of their papers to a <br />
+                special issue of the{" "}
                 <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline">Journal of Financial Technology</a>.
               </p>
             </div>
@@ -507,7 +504,7 @@ export default function WorkshopPage() {
 
               <div className="mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-[#3E921E] flex items-center">
-                  <Calendar className="h-5 w-5 mr-2" /> 7th of October 2025
+                  <Calendar className="h-5 w-5 mr-2" /> Nth of December 2025
                 </h3>
                 <Card>
                   <CardContent className="p-0">
@@ -567,24 +564,6 @@ export default function WorkshopPage() {
               </a>
               .
             </p>
-            <p className="mb-8 max-w-2xl mx-auto">
-              Participation in AFT from 8th to 10th of October is optional. <br />
-              To register for AFT, visit{" "}
-              <a href="https://aftconf.github.io/aft25/attend.html" className="text-[#3E921E] hover:underline">
-                AFT's Registration
-              </a>
-              .
-            </p>
-            <p className="mb-8 max-w-2xl mx-auto">
-              We also recommend participating in <a href="https://aftconf.github.io/aft25/attend.html" className="text-[#3E921E] hover:underline">BGIN Block #13</a> from 15th to 17th of October in Washington, D.C.
-            </p>
-            <p className="mb-8 max-w-2xl mx-auto">
-              If you may need a visa to attend the workshop, please contact the organizers.
-            </p>
-            <p className="mb-8 max-w-2xl mx-auto">
-              If you would like to participate in the workshop but, for any reason, 
-              you are unable or unwilling to come to CMU, USA, on the 7th of October, please contact the organizers.
-            </p>
           </div>
         </section>
 
@@ -595,18 +574,18 @@ export default function WorkshopPage() {
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-xl font-semibold mb-4 flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-[#FFBF00]" /> Carnegie Mellon University
+                  <MapPin className="h-5 w-5 mr-2 text-[#FFBF00]" /> Location To-Be-Defined
                 </h3>
                 <p className="mb-4">
-                  5000 Forbes Ave
+                  TBD
                   <br />
-                  Pittsburgh, PA 15213
+                  TBD
                   <br />
-                  USA
+                  TBD
                 </p>
                 <p className="mb-4">
-                  Carnegie Mellon University is located in the Oakland neighborhood of Pittsburgh, easily accessible by
-                  public transportation and within walking distance of many hotels.
+                  The 1st Stability Workshop will be hybrid event, with a location to be defined 
+                  and remote participation allowed.
                 </p>
               </div>
               <div className="rounded-lg overflow-hidden h-64 border">
@@ -618,8 +597,8 @@ export default function WorkshopPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Carnegie Mellon University Map"
-                  aria-label="Map showing Carnegie Mellon University location in Pittsburgh"
+                  title="Location Map"
+                  aria-label="Map showing the location of the 1st Stability Workshop"
                 ></iframe>
               </div>
             </div>
@@ -665,9 +644,7 @@ export default function WorkshopPage() {
               <p className="text-sm opacity-80">
                 Stability Workshop
                 <br />
-                7th of October 2025
-                <br />
-                Pittsburgh, PA, USA
+                December 2025
               </p>
             </div>
             <div className="text-right">
