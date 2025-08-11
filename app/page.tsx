@@ -584,7 +584,8 @@ export default function WorkshopPage() {
                   TBD
                 </p>
                 <p className="mb-4">
-                  The 1st Stability Workshop will be hybrid event, with a location to be defined 
+                  The 1st Stability Workshop will be a hybrid event, <br /> 
+                  with a location to be defined <br /> 
                   and remote participation allowed.
                 </p>
               </div>
