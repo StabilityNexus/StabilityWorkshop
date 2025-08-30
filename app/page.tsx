@@ -43,7 +43,7 @@ export default function WorkshopPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-4">1st Stability Workshop</h1>
           <p className="text-xl md:text-2xl mb-6">   
           </p>
-          <p className="text-lg md:text-xl">December 2025 • Location To-Be-Defined</p>
+          <p className="text-lg md:text-xl">December 15, 2025 • LNM Institute of Information Technology</p>
         </div>
       </header>
 
@@ -196,13 +196,13 @@ export default function WorkshopPage() {
               </Card>
               <Card className="border-l-4 border-l-[#FFBF00]">
                 <CardContent className="pt-6">
-                  <div className="flex items-center gap-4">
-                    <Calendar className="h-8 w-8 text-[#3E921E]" />
-                    <div>
-                      <p className="font-semibold">Workshop Date</p>
-                      <p className="text-muted-foreground">Nth of December 2025</p>
+                                      <div className="flex items-center gap-4">
+                      <Calendar className="h-8 w-8 text-[#3E921E]" />
+                      <div>
+                        <p className="font-semibold">Workshop Date</p>
+                        <p className="text-muted-foreground">December 15, 2025</p>
+                      </div>
                     </div>
-                  </div>
                 </CardContent>
               </Card>
               <p className="mt-6 text-sm text-center text-muted-foreground">
@@ -504,7 +504,7 @@ export default function WorkshopPage() {
 
               <div className="mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-[#3E921E] flex items-center">
-                  <Calendar className="h-5 w-5 mr-2" /> Nth of December 2025
+                  <Calendar className="h-5 w-5 mr-2" /> December 15, 2025
                 </h3>
                 <Card>
                   <CardContent className="p-0">
@@ -574,34 +574,35 @@ export default function WorkshopPage() {
             <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-xl font-semibold mb-4 flex items-center">
-                  <MapPin className="h-5 w-5 mr-2 text-[#FFBF00]" /> Location To-Be-Defined
+                  <MapPin className="h-5 w-5 mr-2 text-[#FFBF00]" /> LNM Institute of Information Technology
                 </h3>
                 <p className="mb-4">
-                  TBD
+                  LNM Institute of Information Technology
                   <br />
-                  TBD
+                  Jaipur, Rajasthan, India
                   <br />
-                  TBD
+                  PIN: 302031
                 </p>
                 <p className="mb-4">
                   The 1st Stability Workshop will be a hybrid event, <br /> 
-                  with a location to be defined <br /> 
-                  and remote participation allowed.
+                  hosted at LNM Institute of Information Technology <br /> 
+                  with remote participation allowed.
                 </p>
               </div>
               <div className="rounded-lg overflow-hidden h-64 border">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.4386942171403!2d-79.9459!3d40.4454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e0!3m2!1sen!2sus!4v1651234567890!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Location Map"
-                  aria-label="Map showing the location of the 1st Stability Workshop"
-                ></iframe>
-              </div>
+              <iframe
+                src="https://www.google.com/maps?q=The%20LNM%20Institute%20of%20Information%20Technology,%20Via%20Jamdoli,%20Jaipur&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="LNMIIT Location Map"
+                aria-label="Map showing the location of The LNM Institute of Information Technology, Via Jamdoli, Jaipur"
+              />
+            </div>
+
             </div>
           </div>
         </section>
@@ -645,7 +646,7 @@ export default function WorkshopPage() {
               <p className="text-sm opacity-80">
                 Stability Workshop
                 <br />
-                December 2025
+                December 15, 2025
               </p>
             </div>
             <div className="text-right">
