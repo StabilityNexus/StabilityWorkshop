@@ -43,7 +43,7 @@ export default function WorkshopPage() {
           <h1 className="text-3xl md:text-5xl font-bold mb-4">1st Stability Workshop</h1>
           <p className="text-xl md:text-2xl mb-6">   
           </p>
-          <p className="text-lg md:text-xl">December 15, 2025 • LNM Institute of Information Technology</p>
+          <p className="text-lg md:text-xl">December 15, 2025 • LNM Institute of Information Technology, India</p>
         </div>
       </header>
 
