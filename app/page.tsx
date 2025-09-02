@@ -579,13 +579,12 @@ export default function WorkshopPage() {
                 <p className="mb-4">
                   LNM Institute of Information Technology
                   <br />
-                  Jaipur, Rajasthan, India
-                  <br />
-                  PIN: 302031
+                  In the <a href="https://en.wikipedia.org/wiki/Organization_of_World_Heritage_Cities" className="text-[#3E921E] hover:underline">World Heritage</a> and <a href="https://en.wikipedia.org/wiki/Golden_Triangle_(India)" className="text-[#3E921E] hover:underline">Golden Triangle</a> City of 
+                  <br /> 
+                  <a href="https://en.wikipedia.org/wiki/Jaipur" className="text-[#3E921E] hover:underline">Jaipur, Rajasthan, India</a>
                 </p>
                 <p className="mb-4">
                   The 1st Stability Workshop will be a hybrid event, <br /> 
-                  hosted at LNM Institute of Information Technology <br /> 
                   with remote participation allowed.
                 </p>
               </div>
@@ -603,6 +602,27 @@ export default function WorkshopPage() {
               />
             </div>
 
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="p-4 border rounded-md">
+                    
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    
+                  </div>
+                  <div className="p-4 border rounded-md">
+                   
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    
+                  </div>
             </div>
           </div>
         </section>
