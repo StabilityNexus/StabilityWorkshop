@@ -603,27 +603,6 @@ export default function WorkshopPage() {
             </div>
 
             </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <div className="p-4 border rounded-md">
-                    
-                  </div>
-                  <div className="p-4 border rounded-md">
-                    
-                  </div>
-                  <div className="p-4 border rounded-md">
-                    
-                  </div>
-                  <div className="p-4 border rounded-md">
-                    
-                  </div>
-                  <div className="p-4 border rounded-md">
-                   
-                  </div>
-                  <div className="p-4 border rounded-md">
-                    
-                  </div>
-            </div>
           </div>
         </section>
 
