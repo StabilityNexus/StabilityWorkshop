@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata = {
   title: "STABILITY 2025 - First Stability Workshop",
-  description: "First Stability Workshop, 7th of October 2025, CMU, Pittsburgh, PA, USA",
+  description: "First Stability Workshop, 15th of December 2025, LNM IIT, Jaipur, Rajasthan, India",
 }
 
 export default function RootLayout({
