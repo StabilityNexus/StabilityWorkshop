@@ -222,7 +222,7 @@ export default function WorkshopPage() {
                 <div className="grid md:grid-cols-1 gap-6">
                   <Card>
                     <CardContent className="pt-6">
-                      <p className="font-semibold">Dr. Bruno Woltzemlogel Paleo</p>
+                      <p className="font-semibold">Dr. Bruno Woltzenlogel Paleo</p>
                       <p className="text-sm text-muted-foreground">The Stable Order</p>
                     </CardContent>
                   </Card>
