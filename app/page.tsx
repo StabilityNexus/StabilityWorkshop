@@ -183,17 +183,6 @@ export default function WorkshopPage() {
                   </div>
                 </CardContent>
               </Card>
-              <Card className="mb-4 border-l-4 border-l-[#FFBF00]">
-                <CardContent className="pt-6">
-                  <div className="flex items-center gap-4">
-                    <Calendar className="h-8 w-8 text-[#3E921E]" />
-                    <div>
-                      <p className="font-semibold">Camera-Ready Submission</p>
-                      <p className="text-muted-foreground">9th of November 2025</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
               <Card className="border-l-4 border-l-[#FFBF00]">
                 <CardContent className="pt-6">
                                       <div className="flex items-center gap-4">
@@ -215,10 +204,10 @@ export default function WorkshopPage() {
         {/* Program Committee */}
         <section id="committee" className="py-12 md:py-16">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Program Committee</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Organizing and Program Committee</h2>
             <div className="max-w-5xl mx-auto">
               <div className="mb-8">
-                <h3 className="text-xl font-semibold mb-4 text-[#3E921E]">Workshop Chair</h3>
+                <h3 className="text-xl font-semibold mb-4 text-[#3E921E]">Workshop Organizer</h3>
                 <div className="grid md:grid-cols-1 gap-6">
                   <Card>
                     <CardContent className="pt-6">
@@ -304,7 +293,7 @@ export default function WorkshopPage() {
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Leon Molchanovsky</p>
-                    <p className="text-sm text-muted-foreground">BGIN and HSBC (England, UK)</p>
+                    <p className="text-sm text-muted-foreground">Galaxy Innovation (England, UK)</p>
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Dr. Kelsie Nabben</p>
@@ -361,10 +350,6 @@ export default function WorkshopPage() {
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Dr. Hernán Vanzetto</p>
                     <p className="text-sm text-muted-foreground">Informal Systems, Cosmos</p>
-                  </div>
-                  <div className="p-4 border rounded-md">
-                    <p className="font-medium">Prof. Philip Wadler</p>
-                    <p className="text-sm text-muted-foreground">University of Edinburgh (Scotland, UK)</p>
                   </div>
                   <div className="p-4 border rounded-md">
                     <p className="font-medium">Dr. Shai Wyborski</p>
@@ -479,14 +464,19 @@ export default function WorkshopPage() {
         {/* Publication */}
         <section id="publication" className="py-12 md:py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Publication</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Peer Review and Publication</h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-center mb-8 text-muted-foreground">
-                All accepted papers will be published in the workshop proceedings. <br />
-                Authors of selected papers will be invited to 
-                submit journal versions of their papers to a <br />
+                All submitted papers will be reviewed by the program committee. <br />
+                All papers accepted for presentation at the workshop  <br />
+                will be made public in the workshop's website. <br />
+                Authors of accepted papers are encouraged to take <br /> 
+                the reviews and feedback received during the workshop into account <br />
+                to improve their papers and submit their improved papers to a <br />
                 special issue of the{" "}
-                <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline">Journal of Financial Technology</a>.
+                <a href="https://www.thejft.com/" className="text-[#3E921E] hover:underline">Journal of Financial Technology</a>. <br />
+                Papers submitted to the special issue will be subject to a second round of reviews by
+                the journal's editorial board.
               </p>
             </div>
           </div>
