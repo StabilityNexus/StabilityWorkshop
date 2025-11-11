@@ -356,6 +356,35 @@ export default function WorkshopPage() {
                     <p className="text-sm text-muted-foreground">Kaspa</p>
                   </div>
                 </div>
+            </div>
+            <div className="mb-8">
+                <h3 className="text-xl font-semibold mb-4 text-[#3E921E]">Organizing Committee Members</h3>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Dr. Rajbir Kaur</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Dr. Md. Imran Alam</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Raj Shah</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Rahul Harpal</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Pratyaksh Agrawal</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                  <div className="p-4 border rounded-md">
+                    <p className="font-medium">Sarthak Dengre</p>
+                    <p className="text-sm text-muted-foreground">LNMIIT</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
