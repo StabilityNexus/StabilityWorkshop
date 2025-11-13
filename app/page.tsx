@@ -75,9 +75,11 @@ export default function WorkshopPage() {
                 Program
               </a>
             </div>
+            {/* 
             <a href="https://easychair.org/conferences/?conf=stability2025">
               <Button className="bg-[#FFBF00] hover:bg-[#FFBF00]/90 text-black">Submit your Paper</Button>
             </a>
+            */}
           </div>
         </div>
       </nav>
@@ -743,7 +745,7 @@ export default function WorkshopPage() {
             </div>
           </div>
           <div className="mt-8 pt-4 border-t border-white/20 text-center text-sm opacity-70">
-            <p>© {new Date().getFullYear()} Stability Workshop. CC-BY-NC-SA.</p>
+            <p>© {new Date().getFullYear()} The Stable Order. CC-BY-NC-SA.</p>
           </div>
         </div>
       </footer>
