@@ -487,10 +487,6 @@ export default function WorkshopPage() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center text-[#3E921E]">Workshop Program</h2>
             <div className="max-w-4xl mx-auto">
-              <p className="text-center mb-8 text-muted-foreground">
-                The detailed program will be announced after the paper acceptance notifications. Below is the
-                preliminary schedule.
-              </p>
 
               <div className="mb-8">
                 <h3 className="text-xl font-semibold mb-4 text-[#3E921E] flex items-center">
@@ -501,43 +497,96 @@ export default function WorkshopPage() {
                     <div className="divide-y">
                       <div className="flex p-4">
                         <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
-                          <Clock className="h-4 w-4 mr-1" /> 9:00-9:30
+                          <Clock className="h-4 w-4 mr-1" /> 9:30-10:00
                         </div>
                         <div>
                           <p className="font-medium">Opening Remarks</p>
-                          <p className="text-sm text-muted-foreground">Workshop Chairs</p>
+                          <p className="text-sm text-muted-foreground">Dr. Bruno woltzenlogel Paleo and TODO</p>
                         </div>
                       </div>
                       <div className="flex p-4">
                         <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
-                          <Clock className="h-4 w-4 mr-1" /> 9:30-10:30
+                          <Clock className="h-4 w-4 mr-1" /> 10:00-11:00
                         </div>
                         <div>
-                          <p className="font-medium">Session 1: Talks</p>
-                          <p className="text-sm text-muted-foreground">TBA</p>
+                          <p className="font-medium">Session 1: Stablecoins 1</p>
+                          <p className="text-sm text-muted-foreground mt-2">Strategic Complementarity, Liquidity Tools, and Stale Pricing in Stablecoins -- Vaibhav Keshav</p>
+                          <p className="text-sm text-muted-foreground mt-2">Money Creation With Elastic Supply Via Trust And Blockchain Assets In Global Digital Peer-to-Peer Environment -- Alexander Chepurnoy</p>
                         </div>
                       </div>
                       <div className="flex p-4">
                         <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
-                          <Clock className="h-4 w-4 mr-1" /> 10:30-11:00
+                          <Clock className="h-4 w-4 mr-1" /> 11:00-11:30
                         </div>
                         <div>
-                          <p className="font-medium">Coffee Break</p>
+                          <p className="font-medium">Break</p>
                         </div>
                       </div>
                       <div className="flex p-4">
                         <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
-                          <Clock className="h-4 w-4 mr-1" /> 11:00-12:30
+                          <Clock className="h-4 w-4 mr-1" /> 11:30-13:00
                         </div>
                         <div>
-                          <p className="font-medium">Session 2: Talks</p>
-                          <p className="text-sm text-muted-foreground">TBA</p>
+                          <p className="font-medium">Session 2: Stablecoins 2</p>
+                          <p className="text-sm text-muted-foreground mt-2">Djed Shu: A Stablecoin Protocol with Two Oracles -- Zahnentferner and Yogesh Agrawal</p>
+                          <p className="text-sm text-muted-foreground mt-2">Dexy: Simple Stablecoin Design Based on Algorithmic Central Bank -- Alexander Chepurnoy and Luca D'Angelo</p>
+                          <p className="text-sm text-muted-foreground mt-2">Gluon W: A Cryptocurrency Stabilization Protocol -- Zahnentferner, Luca D'Angelo, Mohammad Shaheer, Giselle Reis</p>
+                        </div>
+                      </div>
+                      <div className="flex p-4">
+                        <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
+                          <Clock className="h-4 w-4 mr-1" /> 13:00-14:00
+                        </div>
+                        <div>
+                          <p className="font-medium">Lunch Break</p>
+                        </div>
+                      </div>
+                      <div className="flex p-4">
+                        <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
+                          <Clock className="h-4 w-4 mr-1" /> 14:00-15:30
+                        </div>
+                        <div>
+                          <p className="font-medium">Session 3: Oracles, Predictions and Rewards</p>
+                          <p className="text-sm text-muted-foreground mt-2">Orb: Decentralized and Sustainable Oracles -- Zahnentferner, Sarthak Dengre and Luca D'Angelo</p>
+                          <p className="text-sm text-muted-foreground mt-2">Fate Protocol:Perpetual Prediction Pools -- Zahnentferner, Anjali Jha and Raj Shah </p>
+                          <p className="text-sm text-muted-foreground mt-2">RainDrop: Reward Distribution Protocol -- Zahnentferner and Sarthak Dengre </p>
+                        </div>
+                      </div>
+                      <div className="flex p-4">
+                        <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
+                          <Clock className="h-4 w-4 mr-1" /> 15:30-16:00
+                        </div>
+                        <div>
+                          <p className="font-medium">Break</p>
+                        </div>
+                      </div>
+                      <div className="flex p-4">
+                        <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
+                          <Clock className="h-4 w-4 mr-1" /> 16:00-17:00
+                        </div>
+                        <div>
+                          <p className="font-medium">Session 4: Zero Knowledge</p>
+                          <p className="text-sm text-muted-foreground mt-2">Succinct Non-Interactive Share Proofs in Proof-of-Work Cryptocurrencies -- Kirat Singh</p>
+                          <p className="text-sm text-muted-foreground mt-2">zkFFT Extending Halo2 with Vector Commitments & More -- Aram Jivanyan, Gohar Hovhannisyan, Hayk Hovhannisyan and Nerses Asaturyan</p>
+                        </div>
+                      </div>
+                      <div className="flex p-4">
+                        <div className="w-24 flex-shrink-0 flex items-center text-[#FFBF00] font-medium">
+                          <Clock className="h-4 w-4 mr-1" /> 18:00-20:00
+                        </div>
+                        <div>
+                          <p className="font-medium">Workshop Dinner</p>
+                          <p className="text-sm text-muted-foreground">To Be Confirmed</p>
                         </div>
                       </div>
                     </div>
                   </CardContent>
                 </Card>
               </div>
+
+              <p className="text-center mb-8 text-muted-foreground">
+                The workshop program is subject to change.
+              </p>
             </div>
           </div>
         </section>
