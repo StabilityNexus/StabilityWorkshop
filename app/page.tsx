@@ -532,7 +532,7 @@ export default function WorkshopPage() {
                         </div>
                         <div>
                           <p className="font-medium">Opening Remarks</p>
-                          <p className="text-sm text-muted-foreground">Dr. Bruno woltzenlogel Paleo and TODO</p>
+                          <p className="text-sm text-muted-foreground">Dr. Bruno woltzenlogel Paleo</p>
                         </div>
                       </div>
                       <div className="flex p-4">
@@ -607,7 +607,7 @@ export default function WorkshopPage() {
                         </div>
                         <div>
                           <p className="font-medium">Workshop Dinner</p>
-                          <p className="text-sm text-muted-foreground">To Be Confirmed</p>
+                          <p className="text-sm text-muted-foreground">Chokhi Dhani</p>
                         </div>
                       </div>
                     </div>
